@@ -135,7 +135,7 @@ section h1 {
 }
 
 
-@media all and (min-width:480px) {
+@media all and (min-width:120px) {
 .container a span {
     display: block;
     color: white;
