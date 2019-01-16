@@ -129,6 +129,13 @@ section h1 {
                         supported by Chrome and Opera */
 }
 
+
+/*@media all and (min-width:480px) and (max-width:800px){
+   body {
+     font-size : 20px;
+   }
+}*/
+
 .center {
   display: block;
   margin: 0px auto;
@@ -147,23 +154,51 @@ section h1 {
 
 }
 
-.leftcorner{
-	position: absolute;
-    top: 32px;
-    left: 16px;
-    width: 100%;
-    max-width: 200px;
+@media all and (min-width:480px) and (max-width:1080px){
+  .leftcorner{
+  	position: absolute;
+      top: 32px;
+      left: 16px;
+      width: 100%;
+      max-width: 150px;
+  }
 }
 
-.topright {
-  position: absolute;
-  object-fit: cover;
-  top: -1em;
-  right: 3em;
-  font-size:3vw;
-  color: white;
-  font-family: 'Khand';
+@media all and (min-width:1081px) and (max-width:2048px){
+  .leftcorner{
+    position: absolute;
+      top: 32px;
+      left: 16px;
+      width: 100%;
+      max-width: 200px;
+  }
 }
+
+@media all and (min-width:480px) and (max-width:1480px){
+  .topright {
+    position: absolute;
+    object-fit: cover;
+    top: -1em;
+    right: 3em;
+    font-size:6vw;
+    color: white;
+    font-family: 'Khand';
+  }
+}
+
+@media all and (min-width:1481px) and (max-width:2048px){
+  .topright {
+    position: absolute;
+    object-fit: cover;
+    top: -1em;
+    right: 3em;
+    font-size:3vw;
+    color: white;
+    font-family: 'Khand';
+  }
+}
+
+
 
 @font-face {
     font-family: 'Khand', sans-serif;
