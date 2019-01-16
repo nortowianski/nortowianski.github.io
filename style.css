@@ -143,29 +143,16 @@ section h1 {
 
 }
 
-@media all and (min-width:1081px) {
-  .topright {
-    position: absolute;
-    object-fit: cover;
-    top: -1em;
-    right: 3em;
-    font-size:3vw;
-    color: white;
-    font-family: 'Khand';
-  }
+.topright {
+  position: absolute;
+  object-fit: cover;
+  top: -1em; 
+  right: 3em;
+  font-size:4vw;
+  color: white;
+  font-family: 'Khand';
 }
 
-@media all and (min-width:480px) {
-  .topright {
-    position: absolute;
-    object-fit: cover;
-    top: -1em;
-    right: 3em;
-    font-size:5vw;
-    color: white;
-    font-family: 'Khand';
-  }
-}
 
 .section2img {
   display: block;
