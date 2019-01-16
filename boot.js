@@ -20,48 +20,23 @@ var Dr = {
 };
 
 Dr.Boot = function(game) {
-    this.game = game;
 
-    this.game.global = {
-        thumbRows: 5,
-        // number of thumbnail cololumns
-        thumbCols: 3,
-        // width of a thumbnail, in pixels
-        thumbWidth: 100,
-        // height of a thumbnail, in pixels
-        thumbHeight: 100,
-        // space among thumbnails, in pixels
-        thumbSpacing: 25,
-        // array with finished levels and stars collected.
-        // 0 = playable yet unfinished level
-        // 1, 2, 3 = level finished with 1, 2, 3 stars
-        // 4 = locked
-        starsArray: [0, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
-        timesArray:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        // level currently playing
-        level: 1,
-        //name of image for the selected level
-        level_img: "",
-
-        level_sound: false,
-        level_music: true
-    }
+    console.log("%cStarting my awesome game", "color:white; background:red");
 };
 
 Dr.Boot.prototype = {
 
     preload: function() {
-        this.game.load.image('sprite_loading', 'asset/loading1.png');
-        this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL; //resize your window to see the stage resize too
-        this.game.scale.pageAlignHorizontally = true;
-        this.game.scale.pageAlignVertically = true;
-        this.game.scale.setShowAll();
-        this.game.scale.refresh();
+        this.game.load.image("loading","assets/loading.png");
     },
 
     create: function() {
         console.log('Boot finished, lets go to the preloader automatically');
-
+        this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL; //resize your window to see the stage resize too
+        this.game.scale.pageAlignHorizontally = true;
+        // this.game.scale.pageAlignVertically = true;
+        // this.game.scale.setShowAll();
+        // this.game.scale.refresh();
         this.game.state.start('preloader');
     }
 }
