@@ -129,21 +129,8 @@ section h1 {
                         supported by Chrome and Opera */
 }
 
-@media all and (min-width:480px) {
-.center {
-  display: block;
-  margin: 0px auto;
-  margin-left: center;
-  text-align: center;
-  vertical-align: middle;
-  width: 100%;
-  max-width: 800px;
-  height: auto;
 
-}
-}
 
-@media all and (min-width:1440px) {
 .center {
   display: block;
   margin: 0px auto;
@@ -154,7 +141,6 @@ section h1 {
   max-width: 730px;
   height: auto;
 
-}
 }
 
 @media all and (min-width:1440px) {
