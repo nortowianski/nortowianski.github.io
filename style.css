@@ -192,6 +192,14 @@ section h1 {
   }
 }
 
+DIV.group {
+ display:flex;
+ flex-flow:row wrap;
+ justify-content:space-between;
+ align-items:center;
+ align-content:stretch;
+}
+
 @font-face {
     font-family: 'Khand', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Khand'); 
