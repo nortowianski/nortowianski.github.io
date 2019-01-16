@@ -130,12 +130,6 @@ section h1 {
 }
 
 
-/*@media all and (min-width:480px) and (max-width:800px){
-   body {
-     font-size : 20px;
-   }
-}*/
-
 .center {
   display: block;
   margin: 0px auto;
@@ -162,14 +156,28 @@ section h1 {
     max-width: 200px;
 }
 
-.topright {
-  position: absolute;
-  object-fit: cover;
-  top: -1em;
-  right: 3em;
-  font-size:3vw;
-  color: white;
-  font-family: 'Khand';
+@media all and (min-width:480px) {
+  .topright {
+    position: absolute;
+    object-fit: cover;
+    top: -1em;
+    right: 3em;
+    font-size:5vw;
+    color: white;
+    font-family: 'Khand';
+  }
+}
+
+@media all and (min-width:1080px) {
+  .topright {
+    position: absolute;
+    object-fit: cover;
+    top: -1em;
+    right: 3em;
+    font-size:3vw;
+    color: white;
+    font-family: 'Khand';
+  }
 }
 
 @font-face {
