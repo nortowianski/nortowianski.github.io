@@ -191,14 +191,16 @@ section h1 {
     font-family: 'Khand';
   }
 }
+.col-md-4 {
+        margin-top:15%;
+    }
 
-DIV.group {
- display:flex;
- flex-flow:row wrap;
- justify-content:space-between;
- align-items:center;
- align-content:stretch;
+.box{
+  box-model: border-box;
+  border: 30px solid transparent;
+  background-clip:padding-box;
 }
+
 
 @font-face {
     font-family: 'Khand', sans-serif;
