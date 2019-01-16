@@ -19,7 +19,9 @@ Dr.Title = function(game) {
 Dr.Title.prototype = {
     create: function() {
 
-        this.game.add.tileSprite(0, 0, 900, 1000, "game_background");
+        var TmpImg = this.game.cache.getImage('game_background');
+        myimg = this.game.add.sprite(0,0,'game_background');
+        myimg.width = this.game.width;myimg.height = this.game.height;
         console.log('Preloade finished, this is title');
 
         // if (this.music == null) {

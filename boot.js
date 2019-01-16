@@ -27,16 +27,14 @@ Dr.Boot = function(game) {
 Dr.Boot.prototype = {
 
     preload: function() {
-        this.game.load.image("loading",'asset/loading1.png');
+        //this.game.load.image("loading",'asset/loading1.png');
     },
 
     create: function() {
         console.log('Boot finished, lets go to the preloader automatically');
         this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL; //resize your window to see the stage resize too
         this.game.scale.pageAlignHorizontally = true;
-        // this.game.scale.pageAlignVertically = true;
-        // this.game.scale.setShowAll();
-        // this.game.scale.refresh();
+        this.game.scale.pageAlignVertically = true;
         this.game.state.start('preloader');
     }
 }

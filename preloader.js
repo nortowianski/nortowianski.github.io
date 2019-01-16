@@ -7,7 +7,7 @@ Dr.Preloader.prototype = {
     preload: function() {
 
         //level images
-        this.game.load.spritesheet("level_img1", 'asset/Puzzle_Thumbnail.png', 200, 200);
+        //this.game.load.spritesheet("level_img1", 'asset/Puzzle_Thumbnail.png', 200, 200);
 
         // //Help button
         // this.game.load.spritesheet("help_btn", "asset/help.png", 160, 100);
@@ -34,7 +34,7 @@ Dr.Preloader.prototype = {
         // this.game.load.image('level_backgr', 'asset/level_backgr.jpg');
 
         //game background image
-        this.game.load.image("game_background", 'asset/game_backgr.jpg');
+        this.game.load.image("game_background", 'asset/Title_Thumbnail.png');
 
         // //game information image
         // this.game.load.image("info_backgr", 'asset/info_backgr.jpg');
@@ -51,9 +51,9 @@ Dr.Preloader.prototype = {
         //                            55, 110);
         // //this.game.load.image('btn_home', 'asset/title/home_btn.png');
 
-        this.preloadBar = this.add.sprite(this.game.world.width * 0.5 - 217, this.game.world.height * 0.5, 'loading');
-        //this.preloadBar.anchor.setTo(0, 0);
-        this.load.setPreloadSprite(this.preloadBar);
+        // this.preloadBar = this.add.sprite(this.game.world.width * 0.5 - 217, this.game.world.height * 0.5, 'loading');
+        // //this.preloadBar.anchor.setTo(0, 0);
+        // this.load.setPreloadSprite(this.preloadBar);
         //  Load the Google WebFont Loader script
         this.game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js');
     },
