@@ -156,6 +156,35 @@ section h1 {
 }
 
 
+@media all and (min-width:400px) {
+.center {
+  display: block;
+  margin: 0px auto;
+  margin-left: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+}
+}
+
+@media all and (min-width:600px) {
+.center {
+  display: block;
+  margin: 0px auto;
+  margin-left: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+
+}
+}
+
+@media all and (min-width:900px) {
 .center {
   display: block;
   margin: 0px auto;
@@ -166,6 +195,7 @@ section h1 {
   max-width: 730px;
   height: auto;
 
+}
 }
 
 .topright {
@@ -213,13 +243,13 @@ section h1 {
     max-width: 200px;
 }
 
-@media all and (min-width:480px) {
+@media all and (min-width:120px) {
   .topright {
     position: absolute;
     object-fit: cover;
     top: -1em;
     right: 3em;
-    font-size:5vw;
+    font-size:6vw;
     color: white;
     font-family: 'Khand';
   }
@@ -231,7 +261,7 @@ section h1 {
 }
 
 
-@media all and (min-width:1440px) {
+@media all and (min-width:1081px) {
   .topright {
     position: absolute;
     object-fit: cover;
