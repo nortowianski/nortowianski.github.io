@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Puzzle</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+			background-image:url('asset/Game_I_Page_I_New_II.png');
+            background-size: cover;
+        }
+    </style>
+
+	<script src="phaser.min.js"></script>
+	<script src="boot.js"></script>
+	<script src="preloader.js"></script>
+	<script src="title.js"></script>
+
+
+</head>
+<body>
+
+<script type="text/javascript">
+
+(function () {
+	//	No parameters given, which means no default state is created or started
+    var game = new Phaser.Game(900, 1000, Phaser.AUTO);
+    //background-size: cover;
+	game.state.add('boot', Dr.Boot, true);
+	game.state.add('preloader', Dr.Preloader);
+	game.state.add('title', Dr.Title);
+})();
+
+</script>
+</body>
