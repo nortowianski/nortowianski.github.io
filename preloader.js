@@ -51,7 +51,7 @@ Dr.Preloader.prototype = {
         //                            55, 110);
         // //this.game.load.image('btn_home', 'asset/title/home_btn.png');
 
-        this.preloadBar = this.add.sprite(this.game.world.width * 0.5 - 217, this.game.world.height * 0.5, 'sprite_loading');
+        this.preloadBar = this.add.sprite(this.game.world.width * 0.5 - 217, this.game.world.height * 0.5, 'loading');
         //this.preloadBar.anchor.setTo(0, 0);
         this.load.setPreloadSprite(this.preloadBar);
         //  Load the Google WebFont Loader script
