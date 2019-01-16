@@ -196,24 +196,3 @@ section h1 {
     font-family: 'Khand', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Khand'); 
 }
-
-
-.image {
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    /*height: control it with media queries*/
-}
-
-.image-1 {
-    background-image: url(asset/Puzzle_Thumbnail.png);
-}
-
-.image-2 {
-    background-image: url(asset/Word_Search.png);
-}
-
-.image-3 {
-    background-image: url(asset/Find_difference.png);
-}
