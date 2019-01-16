@@ -134,6 +134,18 @@ section h1 {
                         supported by Chrome and Opera */
 }
 
+
+@media all and (min-width:480px) {
+.container a span {
+    display: block;
+    color: white;
+    font-family: 'Khand';
+    text-align: center;
+    font-size:4vw;
+}
+}
+
+@media all and (min-width:1081px) {
 .container a span {
     display: block;
     color: white;
@@ -141,6 +153,8 @@ section h1 {
     text-align: center;
     font-size:2vw;
 }
+}
+
 
 .center {
   display: block;
@@ -164,11 +178,31 @@ section h1 {
   font-family: 'Khand';
 }
 
+.topright a{
+  position: absolute;
+  object-fit: cover;
+  top: -1em; 
+  right: 3em;
+  font-size:4vw;
+  color: inherit;
+  font-family: 'Khand';
+}
+
 
 .section2img {
   display: block;
   width: 15%;
 
+}
+
+.panel-body a{
+  color: white;
+}
+
+.panel-body a:hover {
+  opacity: .5;
+  color: inherit;
+  background-color:transparent !important;
 }
 
 .topleft{
@@ -186,10 +220,16 @@ section h1 {
     top: -1em;
     right: 3em;
     font-size:5vw;
-    color: inherit;
+    color: white;
     font-family: 'Khand';
   }
+   .topright a:hover {
+  opacity: .5;
+  color: inherit;
+  background-color:transparent !important;
 }
+}
+
 
 @media all and (min-width:1440px) {
   .topright {
@@ -200,7 +240,14 @@ section h1 {
     font-size:3vw;
     color: white;
     font-family: 'Khand';
+    background-color:transparent !important;
   }
+
+  .topright a:hover {
+  opacity: .5;
+  color: inherit;
+  background-color:transparent !important;
+}
 }
 .col-md-4 {
         margin-top:0%;
