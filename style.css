@@ -175,7 +175,7 @@ section h1 {
 }
 */
 
-@media all and (min-width:667px) and (min-height:375px) {
+/*@media all and (min-width:667px) and (min-height:375px) {
     .center {
     display: block;
     margin: 0px auto;
@@ -188,7 +188,7 @@ section h1 {
     top: 50%;
     transform: translateY(25%);
   }
-}
+}*/
 
 @media all and (min-width:120px) {
 .container a span {
@@ -211,7 +211,7 @@ section h1 {
 }
 
 
-/*@media all and (min-width:120px) and (max-width: 599px ) {
+@media all and (min-width:120px) and (max-width: 599px ) {
 .center {
   display: block;
   margin: 0px auto;
@@ -224,9 +224,9 @@ section h1 {
   top: 50%;
   transform: translateY(25%);
 }
-}*/
+}
 
-/*@media all and (min-width:600px) {
+@media all and (min-width:600px) {
 .center {
   display: block;
   margin: 0px auto;
@@ -238,7 +238,7 @@ section h1 {
   height: auto;
 
 }
-}*/
+}
 
 @media all and (min-width:900px) {
 .center {
