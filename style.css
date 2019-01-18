@@ -60,7 +60,7 @@ section h1 {
   text-decoration: none;
   transition: opacity .3s;
   color: inherit;
-    text-decoration:none;
+  text-decoration:none;
 }
 .demo a:hover {
   opacity: .5;
@@ -74,7 +74,7 @@ section h1 {
 }
 #section01 a span {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 50%;
   width: 32px;
   height: 32px;
@@ -115,12 +115,6 @@ section h1 {
   }
 }
 
-
-
-
-
-
-
 .container {
   position: relative;
   object-fit: cover;
@@ -134,6 +128,67 @@ section h1 {
                         supported by Chrome and Opera */
 }
 
+
+/*@media all and (min-width:320px) and (min-height:480px) {
+}
+@media all and (min-width:320px) and (min-height:586px) {
+}
+@media all and (min-width:375px) and (min-height:667px) {
+}
+@media all and (min-width:414px) and (min-height:736px) {
+}
+@media all and (min-width:360px) and (min-height:640px) {
+}
+@media all and (min-width:411px) and (min-height:731px) {
+}
+@media all and (min-width:384px) and (min-height:640px) {
+}
+@media all and (min-width:320px) and (min-height:580px) {
+}
+@media all and (min-width:320px) and (min-height:580px) {
+}
+@media all and (min-width:320px) and (min-height:580px) {
+}
+
+@media all and (min-width:768px) and (min-height:1024px) {
+}
+@media all and (min-width:1366px) and (min-height:1024px) {
+}
+@media all and (min-width:600px) and (min-height:960px) {
+}
+@media all and (min-width:1024px) and (min-height:768px) {
+}
+@media all and (min-width:800px) and (min-height:1280px) {
+}
+
+@media all and (min-width:1920px) and (min-height:1200px) {
+}
+@media all and (min-width:1920px) and (min-height:1080px) {
+}
+@media all and (min-width:1680px) and (min-height:1050px) {
+}
+@media all and (min-width:1440px) and (min-height:900px) {
+}
+@media all and (min-width:1366px) and (min-height:768px) {
+}
+@media all and (min-width:1024px) and (min-height:800px) {
+}
+*/
+
+@media all and (min-width:667px) and (min-height:375px) {
+    .center {
+    display: block;
+    margin: 0px auto;
+    margin-left: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    top: 50%;
+    transform: translateY(25%);
+  }
+}
 
 @media all and (min-width:120px) {
 .container a span {
@@ -156,7 +211,7 @@ section h1 {
 }
 
 
-@media all and (min-width:120px) and (max-width: 599px ) {
+/*@media all and (min-width:120px) and (max-width: 599px ) {
 .center {
   display: block;
   margin: 0px auto;
@@ -169,9 +224,9 @@ section h1 {
   top: 50%;
   transform: translateY(25%);
 }
-}
+}*/
 
-@media all and (min-width:600px) {
+/*@media all and (min-width:600px) {
 .center {
   display: block;
   margin: 0px auto;
@@ -183,7 +238,7 @@ section h1 {
   height: auto;
 
 }
-}
+}*/
 
 @media all and (min-width:900px) {
 .center {
@@ -194,6 +249,20 @@ section h1 {
   vertical-align: middle;
   width: 100%;
   max-width: 730px;
+  height: auto;
+
+}
+}
+
+@media all and (min-height:1200px) {
+.center {
+  display: block;
+  margin: 0px auto;
+  margin-left: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 850px;
   height: auto;
 
 }
