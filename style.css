@@ -331,6 +331,12 @@ section h1 {
     width: 100%;
     max-width: 200px;
 }
+.centertext{
+  top:20%;
+  font-size:1vw;
+  color: white;
+  font-family: 'Khand';
+}
 }
 
 @media all and (min-height:1200px) {
