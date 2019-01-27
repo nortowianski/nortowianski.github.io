@@ -47,6 +47,14 @@ section h1 {
 			background-size: cover;
 }
 
+#section03 { 
+  background: url(asset/Game_I_Page_I_New_II.png); 
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+}
+
 .demo a {
   position: absolute;
   bottom: 20px;
@@ -73,6 +81,52 @@ section h1 {
   padding-top: 70px;
 }
 #section01 a span {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.second_section a {
+  padding-top: 70px;
+}
+.second_section a span {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -219,11 +273,20 @@ section h1 {
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: 100%;
   top: 50%;
-  transform: translateY(25%);
+/*  transform: translateY(25%);*/
 }
+
+.topleft{
+  position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100%;
+    max-width: 130px;
+}
+
 }
 
 @media all and (min-width:600px) {
@@ -234,9 +297,17 @@ section h1 {
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   height: auto;
 
+}
+
+.topleft{
+  position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 100%;
+    max-width: 160px;
 }
 }
 
@@ -248,9 +319,17 @@ section h1 {
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  max-width: 730px;
+  max-width: 650px;
   height: auto;
 
+}
+
+.topleft{
+  position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 100%;
+    max-width: 200px;
 }
 }
 
@@ -265,6 +344,14 @@ section h1 {
   max-width: 850px;
   height: auto;
 
+}
+
+.topleft{
+  position: absolute;
+    top: 32px;
+    left: 16px;
+    width: 100%;
+    max-width: 200px;
 }
 }
 
@@ -305,13 +392,7 @@ section h1 {
   background-color:transparent !important;
 }
 
-.topleft{
-	position: absolute;
-    top: 32px;
-    left: 16px;
-    width: 100%;
-    max-width: 200px;
-}
+
 
 @media all and (min-width:120px) {
   .topright {
