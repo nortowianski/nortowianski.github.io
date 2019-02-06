@@ -1,172 +1,632 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<title>Puzzle</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href='https://fonts.googleapis.com/css?family=Khand&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Muzeum Ziemi Karli&#324;skiej - Home</title>
 
-    <style>
-        body {
-			background-image:url('asset/0_website_page_just_background.png');
-			background-attachment: fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			background-size: cover;
-        }
-    </style>
-	<script src="https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js"></script>
 
-</head>
-<body>
-<!-- 
-<div class="container">
-	<img src="asset/Title_Thumbnail.png" alt="Title" class="center">
-	<img src="asset/Logo_Muzeum.png" alt="MuseumLogo" class="leftcorner">
-	<div class="topright"> 
-		<p><u>MENU</u></p>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1549458650" title="wsite-theme-css" />
+<link href='http://fonts.googleapis.com/css?family=Khand:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-weight:300 !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-weight:300 !important;text-transform:  none !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Montserrat" !important;font-weight:700 !important;letter-spacing: -3px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Playfair Display" !important;font-weight:400 !important;letter-spacing: 0px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-size:90px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:22px !important;line-height:34px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+		<script src='files/templateArtifacts.js?1548799774'></script>
+<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.storeCountry = "PL";
+			_W.storeCurrency = "PLN";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "929518747648362712";
+			com_userID = "124145070";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"> window._W = window._W || {}; _W.showV2Footer = 0; </script>
+		
+		<script type="text/javascript">(function(d,s,id){var z=d.createElement(s);z.type="text/javascript";z.id=id;z.async=true;z.src="http://static.zotabox.com/6/9/6972ea4fe8e76a20caa3b853ee786fd5/widgets.js";var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,"script","zb-embed-code"));</script>
+	</head>
+	<body class="header-page  wsite-page-index  full-width-body-off header-overlay-on alt-nav-off  wsite-theme-light"><div class="wrapper">
+    <div class="birdseye-header">
+      <div class="nav-wrap">
+        <div class="container">
+          <div class="logo"><span class="wsite-logo">
+
+	<a href="">
+		<img src="uploads/1/2/4/1/124145070/published/1-logo-muzeum-white.png?1548714345" alt="Muzeum Ziemi Karli&amp;#324;skiej" />
+	</a>
+
+</span></div>
+          <div class="nav desktop-nav"><ul class="wsite-menu-default">
+</ul>
+</div>
+          <label class="hamburger"><span></span></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-wrap">
+      <div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div  class="wsite-section wsite-header-section wsite-section-bg-image wsite-section-effect-parallax" style="height: auto;background-image: url(&quot;/uploads/1/2/4/1/124145070/background-images/769431805.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;background-attachment: fixed;" >
+		<div class="wsite-section-content">
+			
+          <div class="container">
+            <div class="banner">
+				<div class="wsite-section-elements">
+					<div><div id="133318375146451937" align="inherit" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="731612045653524716" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><p id="service1"></p></div></div>
+
+
+
+</div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="uploads/1/2/4/1/124145070/published/first-page-foto_1.png?1548799337" alt="Picture" style="width:675;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div id="401396410608327108" align="inherit" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="563615604379871749" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml2"><a href="#service2">
+<style>
+/* ---------------------------------------------- /*
+ * Mouse animate icon
+/* ---------------------------------------------- */
+.mouse-icon {
+width: 32px;
+  height: 32px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-radius: 2px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  display: block;
+  z-index: 10;
+  opacity: 0.7;
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: 64px;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-5px, 5px);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+@keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+</style>
+
+<div class="mouse-icon"></div>
+<p></p><p></p><p></p>
+
+</a></div></div>
+
+
+
+</div>
+				</div>
+			</div>
+          </div>
+      
+		</div>
+		<div class=""></div>
 	</div>
 </div>
- -->
 
-<section id="section01" >
-  <div class="demo">
-	  <a href="#section02"><span></span></a>
-  </div>
-  <div class="container">
-	  <img src="asset/Title_Thumbnail.png" alt="Title" class="center">
-  </div>
-<div class="topleft">
-    <img src="asset/1_logo_muzeum_white.png" class="topleft" alt="MuseumLogo">
-  </div>
-
-</section>
-
-
-
-<section id="section02">
-
-<div class="demo">
-  <div class="second_section">
-    <a href="#section03"><span></span></a>
-  </div>
 </div>
 
-  <div class="container">
-    <div class="row">
-    
-      <div class="col-md-4 col-xs-4 col-md-offset-2 box">
-          <a class="thumbnail" href="#">
-              <img class="img-fluid" src="asset/3_puzzle_Thumbnail.png" alt="">
-              <span>PUZZLE</span>
-          </a>
-      </div> 
-      
-      <div class="col-md-4 col-xs-4 col-md-offset-2 box">
-          <a href="#" class="">
-          <div class="thumbnail">
-              
-              <img class="img-fluid" src="asset/4_word_search_thumbnail.png" alt="">
-              <span>ZNAJDŹ SŁOWA</span>
-
-             <!--  <img class="img-fluid" src="asset/Science_Fun.png" alt=""> -->
-            
-          </div>
-          </a>
-      </div>
-      
-      <div class="col-md-4 col-xs-4 col-md-offset-2 box">
-          <a class="thumbnail" href="#">
-              <img class="img-fluid" src="asset/5_find_difference_thumbnail.png" onClick="https://arizonaatwork.com" alt="">
-              <span>ZNAJDŹ RÓŻNICE</span>
-          </a>
-      </div>
-
-
     </div>
-  </div>
 
-</section>
+    <div class="main-wrap">
+      <div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-section-bg-image wsite-section-effect-parallax wsite-background-18" style="height: auto;background-image: url(&quot;/uploads/1/2/4/1/124145070/background-images/696152127.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;background-attachment: fixed;" >
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div><div id="772443250290137726" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="731612045653524716" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><p id="service2"></p></div></div>
 
-<section id="section03">
 
-    <div class="container">
-<div class="row">
-        <div class="col-md-12 col-xs-12 text-center col-md-offset-2 box">
-          <div class="container centertext">
-            <p>Projekt dofinansowane przez Unię Europejską z Europejskiego Funduszu Rozwoju Regionalnego. Z Programu: Program Współpracy Interreg V A Meklemburgia-Pomorze Przednie / Brandenburgia / Polska w ramach celu „Europejska Współpraca Terytorialna“ Europejskiego Funduszu Rozwoju Regionalnego (EFRR)</p>
-            <p><b><u> Projekt: </u></b>Polsko – Niemieckie Forum Historyczne. Innowacyjna sieć muzealna Göhren – Karlino – Wałcz: silni dynamiczną współpracą w realu i wirtualu</p>
-            <p></p>
-            <p>Nr Projektu: INT81</p>
-          </div>
-      </div> 
+
 </div>
 
-    <div class="row">
+<div class="wsite-spacer" style="height:108px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
+<a href='https://birozz.gitlab.io/html5_games/?fbclid=IwAR2qtygac7z0dYpgRau5tmTWtHsJEB0X7inhjcgRwO3zJqDRudX3Frujj2E'>
+<img src="uploads/1/2/4/1/124145070/editor/3-puzzle-thumbnail.png?1548754662" alt="Picture" style="width:272;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:center;"><font color="#ffffff" size="6">PUZZLE</font></div>
 
 
-      <div class="col-md-4 col-xs-4 col-md-offset-2 box">
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
 
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="uploads/1/2/4/1/124145070/editor/4-word-search-thumbnail.png?1548754305" alt="Picture" style="width:275;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:center;"><font color="#ffffff" size="6">ZNAJD&#377; S&#321;OWO</font></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="uploads/1/2/4/1/124145070/editor/5-find-difference-thumbnail.png?1548754652" alt="Picture" style="width:272;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:center;"><font color="#ffffff" size="6">ZNAJD&#377; R&Oacute;&#379;NIC&#280;</font></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:160px;"></div>
+
+<div><div id="690927020303446212" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="563615604379871749" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml2"><a href="#service3">
+<style>
+/* ---------------------------------------------- /*
+ * Mouse animate icon
+/* ---------------------------------------------- */
+.mouse-icon {
+width: 32px;
+  height: 32px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-radius: 2px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  display: block;
+  z-index: 10;
+  opacity: 0.7;
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: 64px;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-5px, 5px);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+@keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+</style>
+
+<div class="mouse-icon"></div>
+<p></p><p></p><p></p>
+
+</a></div></div>
+
+
+
+</div>
+			</div>
+		</div>
       </div>
-    
 
-      
-      <div class="col-md-4 col-xs-4 col-md-offset-2 box">
-          
-          <div class="thumbnail">
-              
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-section-bg-image wsite-section-effect-parallax wsite-background-19" style="height: auto;background-image: url(&quot;/uploads/1/2/4/1/124145070/background-images/723169691.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;background-attachment: fixed;" >
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div><div id="796777308323853769" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="731612045653524716" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><p id="service3"></p></div></div>
 
-          <img class="img-fluid" src="asset/6_logo_interreg.png" alt="">
 
-          <div class="container centertext">
-            <b><u> Zamawiąjący: </u></b> Muzeum Ziemi Karlińskiej
-          </div>
 
-          <img class="img-fluid" src="asset/7_logo_muzeum_oryginal.png" alt="">
+</div>
 
-                    <div class="container centertext">
-            Wykonawca: Cultware sp. z o.o.
-          </div>
+<div class="wsite-spacer" style="height:52px;"></div>
 
-          <img class="img-fluid" src="asset/8_logo_qulto.png" alt="">
+<h2 class="wsite-content-title" style="text-align:center;"><font size="4"><font color="#ffffff">Projekt dofinansowany przez Uni&#281; Europejsk&#261; z Europejskiego Funduszu Rozwoju Regionalnego. Z Programu: Program Wsp&oacute;&#322;pracy Interreg V A Meklemburgia-Pomorze Przednie / Brandenburgia / Polska w ramach celu &bdquo;Europejska Wsp&oacute;&#322;praca Terytorialna&ldquo; Europejskiego Funduszu Rozwoju Regionalnego (EFRR)<br /><u><strong>Projekt</strong></u>: Polsko &ndash; Niemieckie Forum Historyczne. Innowacyjna sie&#263; muzealna G&ouml;hren &ndash; Karlino &ndash; Wa&#322;cz: silni dynamiczn&#261; wsp&oacute;&#322;prac&#261; w realu i wirtualu</font><br /><font color="#ffffff">Nr Projektu: INT81</font></font></h2>
 
-            
-          </div>
-          
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/2/4/1/124145070/editor/6-logo-interreg.png?1548716825" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="wsite-spacer" style="height:36px;"></div>
+
+<div class="paragraph" style="text-align:center;"><font color="#ffffff" size="4"><u><strong>Zamawi&#261;j&#261;cy</strong></u>: Muzeum Ziemi Karli&#324;skiej</font></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/2/4/1/124145070/published/7-logo-muzeum-oryginal.png?1548749602" alt="Picture" style="width:176;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="wsite-spacer" style="height:33px;"></div>
+
+<div class="paragraph" style="text-align:center;"><font color="#ffffff" size="4"><u><strong>Wykonawca</strong></u>: Cultware sp. z o.o.</font></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/2/4/1/124145070/editor/8-logo-qulto.png?1548749566" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div><div id="345427985415839907" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="563615604379871750" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a href="#service1">
+<style>
+/* ---------------------------------------------- /*
+ * Mouse animate icon
+/* ---------------------------------------------- */
+.mouse-icon2 {
+
+  width: 32px;
+  height: 32px;
+
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  border-radius: 2px;
+  margin-left: 12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  display: block;
+  z-index: 10;
+  opacity: 0.7;
+  -webkit-animation: sdb06 1.5s infinite;
+  animation: sdb06 1.5s infinite;
+  box-sizing: 64px;
+}
+
+@-webkit-keyframes sdb06 {
+  0% {
+    -webkit-transform: rotate(135deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(135deg) translate(-5px, 5px);
+    opacity: 0;
+  }
+}
+@keyframes sdb06 {
+  0% {
+    transform: rotate(135deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(135deg) translate(-5px, 5px);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+@keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+</style>
+
+<p></p><p></p><p></p>
+<div class="mouse-icon2"></div>
+
+
+</a></div></div>
+
+
+
+</div>
+			</div>
+		</div>
       </div>
-      
-      <div class="col-md-4 col-xs-4 col-md-offset-2 box">
 
-      </div>
+	</div>
+</div>
 
+</div>
 
     </div>
+
+  </div><!-- /.wrapper -->
+
+  <div id="navMobile" class="nav mobile-nav">
+    <label class="hamburger"><span></span></label>
+    <ul class="wsite-menu-default">
+    </ul>
   </div>
+  
+  <script type="text/javascript">
+    jQuery(function($) {
+        // Smooth scrolling
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+        // Close mobile menu on click
+        $('.wsite-menu-item').on('click', function() {
+            $(".hamburger").trigger('click');
+        });
+        // Smooth scroll to top when "Home" is clicked
+        $("a[href='http://tester118172.weebly.com/#E']").click(function() {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+            return false;
+        });
+    });
+</script>
+
+	<script type="text/javascript" src="files/theme/plugins.js"></script>
+  <script type="text/javascript" src="files/theme/custom.js"></script>
+<div style='padding: 20px; width:100%; text-align:center; display: none;'><div class='wsite-elements wsite-footer'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
 
 
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
 
-</section>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-<script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script >
-      $(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
-      //# sourceURL=pen.js
-    </script>
-  <script src="https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js"></script>
+<div class="wsite-spacer" style="height:50px;"></div>
 
 
-</body>
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="paragraph" style="text-align:right;"><font color="#6555c2">Proudly powered by <a href="http://weebly.com" target="_blank">Weebly</a></font></div></div></div>
+    <div id="customer-accounts-app"></div>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+
+		<script language=javascript type='text/javascript'>
+window.onload = hideDiv;
+
+function hideDiv() {
+if (document.getElementById) {
+document.getElementById('wsite-footer').style.display = 'none';
+}
+}
+</script>
+	</body>
+</html>
